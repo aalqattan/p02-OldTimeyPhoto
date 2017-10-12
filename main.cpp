@@ -41,7 +41,7 @@ if (validBmp == true)
         bmp = image.toPixelMatrix(); //convert bmp file to Matrix file. 
 
 	int row = bmp.size();
-	int cols = bmp [row].size();
+	int cols = bmp [0].size();
 
  
 	
