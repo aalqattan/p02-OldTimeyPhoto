@@ -1,3 +1,5 @@
+//Author: Ali Alqattan 
+
 #include<iostream>
 #include<vector>
 #include<string>
@@ -18,6 +20,7 @@ int main()
     string fileName;
     vector < vector < Pixel > > bmp;
 
+        // verify if the user enter a valid file name or not and if not then ask the user to enter a valid name
     do{
 
         cout<<"Welcome to image color changer :)"<<endl;
